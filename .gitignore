@@ -1,0 +1,20 @@
+# Données Kaggle : à télécharger, non versionnées
+data/*
+!data/.gitkeep
+
+# Environnements Python
+.venv/
+venv/
+env/
+__pycache__/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Modèles sauvegardés
+*.pkl
+*.joblib
+
+# Système
+.DS_Store
+Thumbs.db
